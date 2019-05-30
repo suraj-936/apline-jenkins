@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        IMAGE='liatrio/jenkins-alpine'
+        IMAGE='suraj9/jenkins-alpine'
         TAG='latest'
     }
     stages {
